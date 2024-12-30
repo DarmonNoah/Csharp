@@ -1,4 +1,4 @@
-# Pattern C# 
+# Pattern C#
 
 ## Introduction
 
@@ -12,14 +12,7 @@ Design pattern => basé sur des bonnes pratiques
 
 Le langage UML et C#
 
-Pour chaque pattern :
-    - Nom
-    - Description
-    - Exemple sous forme d'UML
-    - Structure générique du pattern
-    - Le cas d'utilisation
-    - Un exemple de code en C#
-    - [lien vers refactoring.guru ](https://refactoring.guru)
+Pour chaque pattern : - Nom - Description - Exemple sous forme d'UML - Structure générique du pattern - Le cas d'utilisation - Un exemple de code en C# - [lien vers refactoring.guru ](https://refactoring.guru)
 
 # Étude de cas : la vente en ligne de véhicules
 
@@ -85,7 +78,7 @@ public class ConfigurationManager
     private static ConfigurationManager instance;
     private static readonly object lockObject = new object();
 
-    private ConfigurationManager() 
+    private ConfigurationManager()
     {
         // Initialisation des paramètres de configuration
     }
@@ -114,3 +107,14 @@ public class ConfigurationManager
 ```
 
 #### [Lien vers refactoring.guru](https://refactoring.guru/fr/design-patterns/singleton)
+
+#### Abstract Factory Design Pattern
+
+Le but du pattern est la creation d'objets
+regroupes en familles sans devoir
+connaitre les classes concretes destinées
+a la creation de ces objets.
+
+C# est un langage compilé donc compréhensible par l'humain, le but est de fournir un exec compréhensible par la machine ou plutot ton système d'exploitation, dotnet est crossplateforme, dotnet new list permet de voir la liste des templates disponibles.
+
+un namespace est une sorte de bibliotheque
