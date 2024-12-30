@@ -133,3 +133,5 @@ ConstructeurConcret : Ce sont les classes concrètes qui implémentent les méth
 Produit : C'est l'objet final créé, ici une Liasse. Ce produit peut avoir plusieurs types (par exemple, une liasse HTML ou PDF).
 
 Directeur : C'est une classe responsable d'orchestrer la construction du produit en utilisant les méthodes définies par le constructeur abstrait.
+
+Pour faire des diag UML il est possible d'utiliser Excalidraw.

@@ -1,0 +1,3 @@
+Dans le système de vente en ligne de véhicules, nous devons gérer des classes possédant une seule instance.
+
+Le système de liasse de documents destinés au client lors de l’achat d’un véhicule (comme le certificat de cession, la demande d’immatriculation et le bon de commande) utilise la classe LiasseVierge qui ne possède qu’une seule instance. Cette instance référence tous les documents nécessaires pour le client. Cette instance unique est appelée la liasse vierge car les documents qu’elle référence sont tous vierges. L’utilisation complète de la classe LiasseVierge est expliquée dans le chapitre consacré au pattern Prototype.
