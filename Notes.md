@@ -118,3 +118,5 @@ a la creation de ces objets.
 C# est un langage compilé donc compréhensible par l'humain, le but est de fournir un exec compréhensible par la machine ou plutot ton système d'exploitation, dotnet est crossplateforme, dotnet new list permet de voir la liste des templates disponibles.
 
 un namespace est une sorte de bibliotheque
+
+site utile : https://refactoring.guru/design-patterns
