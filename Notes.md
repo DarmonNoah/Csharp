@@ -120,3 +120,16 @@ C# est un langage compilé donc compréhensible par l'humain, le but est de four
 un namespace est une sorte de bibliotheque
 
 site utile : https://refactoring.guru/design-patterns
+
+
+exemple dans builder : 
+
+Le pattern Builder est un design utilisé pour construire un objet complexe étape par étape. Voici les participants du pattern, comme décrit dans Participants.md (dossier builder) :
+
+ConstructeurAbstrait : C'est une classe abstraite ou une interface qui définit les méthodes nécessaires pour construire chaque partie du produit (par exemple, un bon de commande ou une demande d'immatriculation).
+
+ConstructeurConcret : Ce sont les classes concrètes qui implémentent les méthodes définies par le constructeur abstrait pour générer les documents spécifiques (HTML ou PDF, par exemple).
+
+Produit : C'est l'objet final créé, ici une Liasse. Ce produit peut avoir plusieurs types (par exemple, une liasse HTML ou PDF).
+
+Directeur : C'est une classe responsable d'orchestrer la construction du produit en utilisant les méthodes définies par le constructeur abstrait.
