@@ -21,3 +21,5 @@ La hiérarchie mélange au même niveau des sous-classes d’implantation et une
 Les clients sont dépendants de l’implantation. En effet, ils doivent interagir avec les classes concrètes d’implantation.
 
 La solution du pattern Bridge consiste donc à séparer les aspects de représentation de ceux d’implementation et à créer deux hiérarchies de classes
+
+![alt text](image-1.png)
