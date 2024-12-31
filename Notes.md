@@ -139,3 +139,12 @@ resultat = (Document)this.MemberwiseClone();
 effectue un clonage superficiel (shallow copy) de l'objet actuel (this) et le cast en un objet du type Document.
 
 Roadmap.sh est un site pour obtenir des roadmap qui permettent de connaitre notre professionnalisation.
+
+Le but du pattern est d'ajouter
+dynamiquement des fonctionhalites
+supplementaires à un objet.
+Aucune modification de l'interface de
+l'objet
+Transparent vis-a-vis des clients
+- Une alternative à la création d'une sous-
+classe pour enrichir un objet.
