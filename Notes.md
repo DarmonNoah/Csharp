@@ -137,3 +137,4 @@ Pour faire des diag UML il est possible d'utiliser Excalidraw.
 
 resultat = (Document)this.MemberwiseClone();
 effectue un clonage superficiel (shallow copy) de l'objet actuel (this) et le cast en un objet du type Document.
+
