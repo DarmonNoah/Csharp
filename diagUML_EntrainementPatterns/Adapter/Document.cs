@@ -2,7 +2,7 @@ using System;
 
 public interface Document
 {
-  string contenu {set;}
+  string contenu { set; }
 
   void dessine();
   void imprime();
