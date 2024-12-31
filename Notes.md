@@ -121,8 +121,7 @@ un namespace est une sorte de bibliotheque
 
 site utile : https://refactoring.guru/design-patterns
 
-
-exemple dans builder : 
+exemple dans builder :
 
 Le pattern Builder est un design utilisé pour construire un objet complexe étape par étape. Voici les participants du pattern, comme décrit dans Participants.md (dossier builder) :
 
@@ -135,3 +134,6 @@ Produit : C'est l'objet final créé, ici une Liasse. Ce produit peut avoir plus
 Directeur : C'est une classe responsable d'orchestrer la construction du produit en utilisant les méthodes définies par le constructeur abstrait.
 
 Pour faire des diag UML il est possible d'utiliser Excalidraw.
+
+resultat = (Document)this.MemberwiseClone();
+effectue un clonage superficiel (shallow copy) de l'objet actuel (this) et le cast en un objet du type Document.
