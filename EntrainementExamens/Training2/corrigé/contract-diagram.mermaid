@@ -1,0 +1,35 @@
+classDiagram
+    class Contrat {
+        <<abstract>>
+        -clausesStandard: string
+        -informationsClient: Dictionary
+        -annexes: List~string~
+        +Clone() Contrat
+        +Personnaliser(Dictionary info)
+    }
+    
+    class ContratHabitation {
+        +Clone() Contrat
+        +Personnaliser(Dictionary info)
+    }
+    
+    class ContratAutomobile {
+        +Clone() Contrat
+        +Personnaliser(Dictionary info)
+    }
+    
+    class ContratVie {
+        +Clone() Contrat
+        +Personnaliser(Dictionary info)
+    }
+    
+    class GestionnaireContrats {
+        -prototypes: Dictionary~string, Contrat~
+        +EnregistrerPrototype(string type, Contrat prototype)
+        +CreerContrat(string type) Contrat
+    }
+    
+    Contrat <|-- ContratHabitation
+    Contrat <|-- ContratAutomobile
+    Contrat <|-- ContratVie
+    GestionnaireContrats --> Contrat
