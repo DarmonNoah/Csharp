@@ -3,12 +3,14 @@
 ## 1. Introduction aux Design Patterns
 
 ### Qu'est-ce qu'un Design Pattern ?
+
 - **Définition** : Un Design Pattern est un schéma d’objets qui propose une solution réutilisable à un problème récurrent.
 - **Caractéristiques** :
   - Utilisé dans la programmation orientée objet (POO).
   - Basé sur des bonnes pratiques de conception.
 
 ### Classification des Patterns
+
 - **Patterns de construction** : Gèrent la création des objets.
   - Exemple : Abstract Factory, Builder, Prototype, Singleton.
 - **Patterns de structuration** : Organisent les hiérarchies et les relations entre les objets.
@@ -19,6 +21,7 @@
 ## 2. Patterns de Construction
 
 ### 2.1 Abstract Factory
+
 - **But** : Créer des familles d'objets liés sans connaître les classes concrètes.
 - **Avantages** :
   - Ajout facile de nouveaux types de produits.
@@ -29,6 +32,7 @@
   - Besoin de maintenir l'indépendance entre système et création des objets.
 
 ### 2.2 Builder
+
 - **But** : Séparer la construction d’un objet complexe de sa représentation.
 - **Caractéristiques** :
   - Permet une création étape par étape.
@@ -39,6 +43,7 @@
   - Différentes représentations pour un même objet.
 
 ### 2.3 Prototype
+
 - **But** : Créer de nouveaux objets par duplication (clonage) d’objets existants.
 - **Exemple** :
   - Créer une "liasse vierge" pour les ventes de véhicules.
@@ -52,6 +57,7 @@
   - Création d’objets systèmes coûteux (ex. connexions réseau).
 
 ### 2.4 Singleton
+
 - **But** : Assurer qu’une classe ne possède qu’une seule instance.
 - **Avantages** :
   - Point d’accès global.
@@ -63,6 +69,7 @@
 ## 3. Patterns de Structuration
 
 ### 3.1 Objectif
+
 - **But** :
   - Encapsuler la composition des objets.
   - Faciliter l’indépendance entre interface et implémentation.
@@ -71,6 +78,7 @@
   - Augmente le niveau d’abstraction.
 
 ### 3.2 Adapter
+
 - **But** : Convertir l’interface d’une classe en une autre interface attendue par ses clients.
 - **Exemple** :
   - Adapter une bibliothèque externe (ex. PDF) dans un système existant.
@@ -79,6 +87,7 @@
   - Compatibilité avec des systèmes existants.
 
 ### 3.3 Decorator
+
 - **But** : Ajouter dynamiquement des fonctionnalités à un objet sans modifier son interface.
 - **Exemple** :
   - Ajout de détails techniques pour des véhicules haut de gamme dans un catalogue web.
@@ -87,6 +96,7 @@
   - Gestion dynamique des fonctionnalités.
 
 ### 3.4 Bridge
+
 - **But** : Séparer une abstraction de son implémentation pour qu’elles puissent évoluer indépendamment.
 - **Exemple** :
   - Système de rendu graphique avec des APIs différentes (OpenGL, DirectX).
@@ -98,6 +108,7 @@
 ## 4. Patterns Comportementaux
 
 ### 4.1 Chain of Responsibility
+
 - **But** :
   - Permet de transmettre une requête à travers une chaîne d’objets jusqu’à ce qu’elle soit traitée.
 - **Exemple** :
@@ -108,6 +119,7 @@
   - Réduit les dépendances directes entre les objets.
 
 ### 4.2 Command
+
 - **But** :
   - Encapsule une requête sous forme d’objet, permettant ainsi de découpler les expéditeurs et les récepteurs.
 - **Exemple** :
@@ -135,3 +147,5 @@
    - [Refactoring.guru](https://refactoring.guru/design-patterns).
 6. **Site utile pour les diagrammes** :
    - [Mermaid](https://mermaid.live/edit).
+7. **Site pour frontend markdown gratuit** :
+   - [Slidev](https://sli.dev/).

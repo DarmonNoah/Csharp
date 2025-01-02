@@ -1,0 +1,49 @@
+classDiagram
+    class DocumentBancaireFactory {
+        <<abstract>>
+        +CreateRIB() IBancaireRIB
+        +CreateAttestation() IBancaireAttestation
+    }
+    
+    class ParticulierFactory {
+        +CreateRIB() IBancaireRIB
+        +CreateAttestation() IBancaireAttestation
+    }
+    
+    class ProfessionnelFactory {
+        +CreateRIB() IBancaireRIB
+        +CreateAttestation() IBancaireAttestation
+    }
+    
+    class IBancaireRIB {
+        <<interface>>
+        +GenererRIB() string
+    }
+    
+    class IBancaireAttestation {
+        <<interface>>
+        +GenererAttestation() string
+    }
+    
+    class RIBParticulier {
+        +GenererRIB() string
+    }
+    
+    class RIBProfessionnel {
+        +GenererRIB() string
+    }
+    
+    class AttestationParticulier {
+        +GenererAttestation() string
+    }
+    
+    class AttestationProfessionnel {
+        +GenererAttestation() string
+    }
+    
+    DocumentBancaireFactory <|-- ParticulierFactory
+    DocumentBancaireFactory <|-- ProfessionnelFactory
+    IBancaireRIB <|.. RIBParticulier
+    IBancaireRIB <|.. RIBProfessionnel
+    IBancaireAttestation <|.. AttestationParticulier
+    IBancaireAttestation <|.. AttestationProfessionnel
