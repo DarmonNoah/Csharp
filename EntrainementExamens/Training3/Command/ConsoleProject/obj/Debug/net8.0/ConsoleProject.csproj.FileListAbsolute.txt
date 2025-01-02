@@ -1,0 +1,15 @@
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\bin\Debug\net8.0\ConsoleProject.exe
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\bin\Debug\net8.0\ConsoleProject.deps.json
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\bin\Debug\net8.0\ConsoleProject.runtimeconfig.json
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\bin\Debug\net8.0\ConsoleProject.dll
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\bin\Debug\net8.0\ConsoleProject.pdb
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.AssemblyInfoInputs.cache
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.AssemblyInfo.cs
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.sourcelink.json
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.dll
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\refint\ConsoleProject.dll
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.pdb
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ConsoleProject.genruntimeconfig.cache
+C:\Users\Administrateur\OneDrive\Bureau\Csharp-DesignPatterns\EntrainementExamens\Training3\Command\ConsoleProject\obj\Debug\net8.0\ref\ConsoleProject.dll
