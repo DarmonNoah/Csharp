@@ -1,4 +1,4 @@
-// Interfaces des produits
+﻿// Interfaces des produits
 public interface IBancaireRIB
 {
     string GenererRIB();
@@ -86,7 +86,7 @@ class Program
         DocumentBancaireFactory factoryParticulier = new ParticulierFactory();
         IBancaireRIB ribParticulier = factoryParticulier.CreateRIB();
         IBancaireAttestation attestationParticulier = factoryParticulier.CreateAttestation();
-        
+
         Console.WriteLine(ribParticulier.GenererRIB());
         Console.WriteLine(attestationParticulier.GenererAttestation());
 
@@ -94,7 +94,7 @@ class Program
         DocumentBancaireFactory factoryProfessionnel = new ProfessionnelFactory();
         IBancaireRIB ribProfessionnel = factoryProfessionnel.CreateRIB();
         IBancaireAttestation attestationProfessionnel = factoryProfessionnel.CreateAttestation();
-        
+
         Console.WriteLine(ribProfessionnel.GenererRIB());
         Console.WriteLine(attestationProfessionnel.GenererAttestation());
     }
